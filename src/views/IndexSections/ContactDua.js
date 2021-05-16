@@ -144,16 +144,15 @@ class ContactDua extends React.Component {
                 </CardFooter> */}
               </Card>
             </CardDeck>
-
-            <NavLink
+            <a
               // to="wa.me/6281266719944?text=Assalamualaikum"
-              to="https://api.whatsapp.com/send/?phone=6281266719944?Assalamualaikum"
+              href="https://api.whatsapp.com/send/?phone=6281266719944?Assalamualaikum"
               className="waku"
               target="_blank"
               tag={Link}
             >
               <img src={wa} className="waku" alt=""></img>
-            </NavLink>
+            </a>
           </Container>
         </section>
       </>
