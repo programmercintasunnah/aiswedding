@@ -1,0 +1,8 @@
+.waku {
+  position: fixed;
+  bottom: 24px;
+  width: 70px;
+  height: 70px;
+  right: 7px;
+  border-radius: 1000px;
+}
