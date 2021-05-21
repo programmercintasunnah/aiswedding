@@ -56,7 +56,7 @@ class Contact extends React.Component {
                         <img src={logo} width="350" height="250" />
                       </div>
                       <div class="col">
-                        <p className="display-5">Address : </p>
+                        {/* <p className="display-5">Address : </p> */}
                         <p className="display-5">Office</p>
                         <tr>
                           <td>

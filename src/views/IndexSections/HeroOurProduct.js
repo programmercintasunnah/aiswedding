@@ -19,7 +19,7 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-import bg from "../Img/gudang.jpg";
+import bg from "../Img/gudang-bg1.jpg";
 import "./style/Contact.css";
 import "./style/hero.css";
 

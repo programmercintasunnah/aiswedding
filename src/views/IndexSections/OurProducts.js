@@ -93,6 +93,17 @@ class OurProducts extends React.Component {
                     </tr>
                     <tr>
                       <td width="100">
+                        <p className="font-weight-bold">Note : </p>
+                      </td>
+
+                      <td>
+                        <p className="ml-2">
+                          Free from dead or alive insect, Dried by sun
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="100">
                         <p className="font-weight-bold">Packaging : </p>
                       </td>
 
@@ -171,17 +182,6 @@ class OurProducts extends React.Component {
                       <td>
                         <p className="ml-2">
                           60kg gunny bag @60kg ( as per buyer request )
-                        </p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td width="100">
-                        <p className="font-weight-bold">Note : </p>
-                      </td>
-
-                      <td>
-                        <p className="ml-2">
-                          Free from dead or alive insect, Dried by sun
                         </p>
                       </td>
                     </tr>
