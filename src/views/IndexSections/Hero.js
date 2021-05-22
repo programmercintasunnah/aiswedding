@@ -19,7 +19,7 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-import bg from "../Img/bg1.jpg";
+import bg from "../Img/pohon-bg.jpg";
 import "./style/Contact.css";
 import "./style/hero.css";
 import logo from "../Img/logo-lc.png";
