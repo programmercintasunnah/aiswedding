@@ -26,8 +26,6 @@ import Hero from "./IndexSections/Hero.js";
 import Contact from "./IndexSections/Contact.js";
 import AboutUs from "./IndexSections/AboutUs.js";
 import AboutProduct from "./IndexSections/AboutProduct.js";
-import OurProducts from "./IndexSections/OurProducts";
-import ContactDua from "./IndexSections/ContactDua";
 
 class Index extends React.Component {
   componentDidMount() {

@@ -16,7 +16,7 @@
 
 */
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
@@ -146,7 +146,8 @@ class ContactDua extends React.Component {
             </CardDeck>
             <a
               // to="wa.me/6281266719944?text=Assalamualaikum"
-              href="https://api.whatsapp.com/send/?phone=6281266719944?Assalamualaikum"
+              // href="https://api.whatsapp.com/send/?phone=6281266719944?text=Hi%20Harvest%20Lucretia%20Indonesia,%20I%20want%20to%20ask%20questions%20and%20get%20more%20information%20from%20your%20company's%20products."
+              href="https://api.whatsapp.com/send?phone=6281266719944&text=Hi%20Harvest%20Lucretia%20Indonesia,%20I%20want%20to%20ask%20questions%20and%20get%20more%20information%20from%20your%20company's%20products."
               className="waku"
               target="_blank"
               tag={Link}

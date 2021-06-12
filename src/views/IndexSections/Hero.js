@@ -22,7 +22,6 @@ import { Container, Row, Col } from "reactstrap";
 import bg from "../Img/pohon-bg.jpg";
 import "./style/Contact.css";
 import "./style/hero.css";
-import logo from "../Img/logo-lc.png";
 import logo2 from "../Img/logo-bulat.png";
 
 class Hero extends React.Component {
@@ -35,17 +34,6 @@ class Hero extends React.Component {
             {/* Background circles */}
             <div className="shape shape-style-1 shape-default">
               <img src={bg} alt="" className="heroimage"></img>
-
-              {/* <span className="span-150" />
-              <span className="span-50" />
-              <span className="span-50" />
-              <span className="span-75" />
-              <span className="span-100" />
-              <span className="span-75" />
-              <span className="span-50" />
-              <span className="span-100" />
-              <span className="span-50" />
-              <span className="span-100" /> */}
             </div>
             <Container className="shape-container d-flex align-items-center py-lg">
               <div className="col px-0 py-0 divhero">

@@ -22,7 +22,6 @@ import Headroom from "headroom.js";
 // reactstrap components
 import {
   UncontrolledCollapse,
-  NavbarBrand,
   Navbar,
   NavItem,
   NavLink,

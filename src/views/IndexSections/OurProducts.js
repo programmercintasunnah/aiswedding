@@ -25,7 +25,7 @@ import {
   CardDeck,
   NavLink,
 } from "reactstrap";
-import wa from "../Img/wa.png";
+
 import "./style/Contact.css";
 import belah from "../Img/Belah.jpg";
 import bulat from "../Img/Bulat.jpg";
@@ -191,15 +191,6 @@ class OurProducts extends React.Component {
             </CardDeck>
 
             <NavLink tag={Link} href="/aboutus"></NavLink>
-            {/* <NavLink
-              to="wa.me/6281266719944?text=Assalamualaikum"
-              // to="https://api.whatsapp.com/send/?phone=6281266719944?Assalamualaikum"
-              className="waku"
-              target="_blank"
-              tag={Link}
-            >
-              <img src={wa} className="waku"></img>
-            </NavLink> */}
           </Container>
         </section>
       </>

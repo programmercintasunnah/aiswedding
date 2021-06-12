@@ -35,12 +35,12 @@ class CardsFooter extends React.Component {
                     href="https://www.programmercintasunnah.com"
                     target="_blank"
                   >
-                    ProgrammerCintaSunnah
+                    Harvest Lucretia
                   </a>
                   .
                 </div>
               </Col>
-              <Col md="6">
+              {/* <Col md="6">
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
@@ -67,7 +67,7 @@ class CardsFooter extends React.Component {
                     </NavLink>
                   </NavItem>
                 </Nav>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </footer>

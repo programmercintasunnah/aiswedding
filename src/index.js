@@ -29,7 +29,7 @@ import AboutUs from "./views/IndexSections/AboutUs";
 import Contact from "./views/IndexSections/Contact";
 import DemoNavbar from "./components/Navbars/DemoNavbar";
 import CardsFooter from "./components/Footers/CardsFooter";
-import Hero from "./views/IndexSections/Hero";
+
 import ProductCard from "./views/IndexSections/ProductCard";
 
 import OurProducts from "./views/IndexSections/OurProducts";

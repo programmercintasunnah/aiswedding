@@ -9,9 +9,6 @@ class ProductCard extends React.Component {
     return (
       <>
         <Container className="py-md mt-5">
-          {/* <h1 className="text-black font-bold text-center display-3">
-            About Product
-          </h1> */}
           <Row className="justify-content-center">
             <Col className="text-center" lg="10">
               <p className="lead text-black">

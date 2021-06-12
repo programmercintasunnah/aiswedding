@@ -132,7 +132,7 @@ class Contact extends React.Component {
             <NavLink tag={Link} href="/aboutus"></NavLink>
             <a
               // to="wa.me/6281266719944?text=Assalamualaikum"
-              href="https://api.whatsapp.com/send/?phone=6281266719944?Assalamualaikum"
+              href="https://api.whatsapp.com/send?phone=6281266719944&text=Hi%20Harvest%20Lucretia%20Indonesia,%20I%20want%20to%20ask%20questions%20and%20get%20more%20information%20from%20your%20company's%20products."
               className="waku"
               target="_blank"
               tag={Link}
