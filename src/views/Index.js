@@ -23,9 +23,9 @@ import CardsFooter from "../components/Footers/CardsFooter.js";
 
 // index page sections
 import Hero from "./IndexSections/Hero.js";
-import Contact from "./IndexSections/Contact.js";
-import AboutUs from "./IndexSections/AboutUs.js";
-import AboutProduct from "./IndexSections/AboutProduct.js";
+
+import Home from "./IndexSections/Home.js";
+import Ayat from "./IndexSections/Ayat.js";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -39,13 +39,8 @@ class Index extends React.Component {
         <DemoNavbar />
         <main ref="main">
           <Hero />
-          <AboutUs />
-          <AboutProduct />
-          {/* <br />
-          <br /> <br />
-          <br />
-          <ContactDua /> */}
-          <Contact />
+          <Home />
+          <Ayat />
         </main>
         <CardsFooter />
       </>

@@ -15,37 +15,28 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-/*eslint-disable*/
 import React from "react";
-import { Link } from "react-router-dom";
+
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
+import lokasi from "../Img/lokasi.jpg";
+import "./style/Contact.css";
 
-class CardsFooter extends React.Component {
+class AboutUs extends React.Component {
+  componentDidMount() {
+    window.scroll(0, 0);
+  }
   render() {
     return (
       <>
-        <footer className="footer has-cards">
+        <section className="section section-lg section-nucleo-icons">
           <Container>
-            <Row className="align-items-center justify-content-md-between">
-              <Col md="6">
-                <div className="copyright">
-                  © {new Date().getFullYear()}{" "}
-                  <a
-                    href="https://www.programmercintasunnah.com"
-                    target="_blank"
-                  >
-                    Programmer Cinta Sunnah
-                  </a>
-                  .
-                </div>
-              </Col>
-            </Row>
+            <img src={lokasi} className="imgcenter mt-5" alt=""></img>
           </Container>
-        </footer>
+        </section>
       </>
     );
   }
 }
 
-export default CardsFooter;
+export default AboutUs;

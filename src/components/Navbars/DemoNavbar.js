@@ -30,10 +30,10 @@ import {
   Row,
   Col,
 } from "reactstrap";
-import imgNav from "../Foto/logo-lc.png";
+import imgNav from "../Foto/Aisha.png";
 // import "nav.css";
 import "../../views/IndexSections/style/nav.css";
-import logo from "../../views/Img/logo-bulat.png";
+import logo from "../../views/Img/Aisha.png";
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -107,37 +107,19 @@ class DemoNavbar extends React.Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink tag={Link} className="nav-link-icon" to="/aboutus">
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">About Us</span>
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
                     <NavLink
                       tag={Link}
                       className="nav-link-icon"
-                      to="/aboutproduct"
+                      to="/bacadetail"
                     >
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">
-                        About Product
-                      </span>
+                      <span className="nav-link-inner--text">Wedding</span>
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink
-                      tag={Link}
-                      className="nav-link-icon"
-                      to="/ourproducts"
-                    >
+                    <NavLink tag={Link} className="nav-link-icon" to="/lokasi">
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Our Products</span>
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink tag={Link} className="nav-link-icon" to="/contact">
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Contact</span>
+                      <span className="nav-link-inner--text">Lokasi</span>
                     </NavLink>
                   </NavItem>
                 </Nav>

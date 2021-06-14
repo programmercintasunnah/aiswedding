@@ -20,10 +20,13 @@ import { Link } from "react-router-dom";
 
 // reactstrap components
 import { Button, Container, Row, Col, UncontrolledCarousel } from "reactstrap";
-import img1 from "../Img/Belah.jpg";
-import img2 from "../Img/Bulat.jpg";
-import bg2 from "../Img/bghp.jpg";
+import img1 from "../Img/a1.jpg";
+import img2 from "../Img/a2.jpg";
+import img3 from "../Img/a3.jpg";
+import img4 from "../Img/a4.jpg";
+import bg2 from "../Img/bg-weddingku.jpg";
 import "./style/hero.css";
+import wa from "../Img/wa.png";
 
 const items = [
   {
@@ -38,6 +41,18 @@ const items = [
     caption: "",
     header: "",
   },
+  {
+    src: img3,
+    altText: "",
+    caption: "",
+    header: "",
+  },
+  {
+    src: img4,
+    altText: "",
+    caption: "",
+    header: "",
+  },
 ];
 
 class AboutProduct extends React.Component {
@@ -47,9 +62,7 @@ class AboutProduct extends React.Component {
   render() {
     return (
       <>
-        <h1 className="text-black font-bold text-center display-3 mb-5">
-          About Product
-        </h1>
+        <h1 className="text-black font-bold text-center display-3 mb-5"></h1>
         <section className="section section-shaped">
           <div className="shape shape-style-1 shape-default x1">
             <img src={bg2} alt="" className="imagecenter"></img>
@@ -64,22 +77,23 @@ class AboutProduct extends React.Component {
           <Container className="py-md">
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
-                <h1 className="text-white font-weight-light">About Product</h1>
+                <h1 className="text-white font-weight-light">
+                  Do'a Bagi Pasangan Pengantin
+                </h1>
                 <p className="lead text-white mt-4">
-                  Areca trees are planted to be used for seeds and stems. Areca
-                  nut which has a bitter taste, contains alkoloides such as
-                  arekaina (arecaine) and arekolina (arecoline) which are toxic
-                  and addictive. Some of the important compounds in betel nuts
-                  include arecaidine, arecolidine, guvacoline, guracine
-                  (guacine).
+                  بَارَكَ اللهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي
+                  خَيْرٍ /Baarakallahu laka wa baaraka ‘alaika wa jama’a
+                  bainakuma fi khayrin/ “Semoga Allah memberikan keberkahan
+                  padamu dan mengumpulkan kalian berdua dalam kebaikan” (HR. Abu
+                  Daud no. 2130, dishahihkan Al Albani dalam Shahih Abu Daud).
                 </p>
                 <Button
                   className="btn-white mt-4"
                   color="default"
                   tag={Link}
-                  to="/ourproducts"
+                  to="/bacadetail"
                 >
-                  Detail Product
+                  Baca Detail
                 </Button>
               </Col>
               <Col className="mb-lg-auto" lg="6">
@@ -88,6 +102,15 @@ class AboutProduct extends React.Component {
                 </div>
               </Col>
             </Row>
+            <a
+              // to="wa.me/6281266719944?text=Assalamualaikum"
+              href="https://wa.link/ts245a"
+              className="waku"
+              target="_blank"
+              tag={Link}
+            >
+              <img src={wa} className="waku" alt=""></img>
+            </a>
           </Container>
           {/* SVG separator */}
           <div className="separator separator-bottom separator-skew">

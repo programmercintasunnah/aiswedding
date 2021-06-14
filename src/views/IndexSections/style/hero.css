@@ -8,12 +8,17 @@ html {
 
 .texthero1 {
   font-size: 70px;
-  color: rgb(112, 103, 3);
+  color: rgb(196, 195, 190);
   text-shadow: 5px 2px white;
 }
 .texthero2 {
   font-size: 70px;
-  color: rgb(46, 151, 4);
+  color: rgb(73, 236, 41);
+  text-shadow: 5px 2px white;
+}
+.texthero3 {
+  font-size: 60px;
+  color: rgb(218, 125, 20);
   text-shadow: 5px 2px white;
 }
 .logo2 {
@@ -60,4 +65,17 @@ html {
 }
 .th1 {
   text-shadow: 2px 2px black;
+}
+
+.tf1 {
+  font-family: "Lobster Two", cursive;
+  font-family: "Over the Rainbow", cursive;
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+.tf {
+  font-family: "Lobster Two", cursive;
+  font-family: "Over the Rainbow", cursive;
+}
+.tf0 {
+  font-family: "Lobster Two", cursive;
 }

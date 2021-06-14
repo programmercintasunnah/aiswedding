@@ -24,20 +24,11 @@ import "./assets/vendor/font-awesome/css/font-awesome.min.css";
 import "./assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "./views/Index.js";
-import AboutUs from "./views/IndexSections/AboutUs";
+import Detail from "./views/IndexSections/Detail";
+import Lokasi from "./views/IndexSections/Lokasi";
 
-import Contact from "./views/IndexSections/Contact";
 import DemoNavbar from "./components/Navbars/DemoNavbar";
 import CardsFooter from "./components/Footers/CardsFooter";
-
-import ProductCard from "./views/IndexSections/ProductCard";
-
-import OurProducts from "./views/IndexSections/OurProducts";
-import HeroContact from "./views/IndexSections/HeroContact";
-import HeroAboutUs from "./views/IndexSections/HeroAboutUs";
-import HeroAboutProduct from "./views/IndexSections/HeroAboutProduct";
-import HeroOurProducts from "./views/IndexSections/HeroOurProduct";
-import ContactDua from "./views/IndexSections/ContactDua";
 
 ReactDOM.render(
   // <ThemeProvider theme={itam}>
@@ -46,33 +37,18 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" exact component={Index} />
-      <Route path="/aboutus">
+      <Route path="/bacadetail">
         <DemoNavbar />
-        <HeroAboutUs />
-        <AboutUs />
-        <ContactDua />
+
+        <Detail />
+
         <CardsFooter />
       </Route>
-      <Route path="/aboutproduct">
+      <Route path="/lokasi">
         <DemoNavbar />
-        <HeroAboutProduct />
-        {/* <AboutProduct /> */}
-        <ProductCard />
-        <ContactDua />
-        <CardsFooter />
-      </Route>
-      <Route path="/ourproducts">
-        <DemoNavbar />
-        <HeroOurProducts />
-        {/* <AboutProduct /> */}
-        <OurProducts />
-        <ContactDua />
-        <CardsFooter />
-      </Route>
-      <Route path="/contact">
-        <DemoNavbar />
-        <HeroContact />
-        <Contact />
+
+        <Lokasi />
+
         <CardsFooter />
       </Route>
     </Switch>

@@ -19,10 +19,9 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-import bg from "../Img/pohon-bg.jpg";
+import bg from "../Img/bg-wedding.jpg";
 import "./style/Contact.css";
 import "./style/hero.css";
-import logo2 from "../Img/logo-bulat.png";
 
 class Hero extends React.Component {
   render() {
@@ -39,18 +38,17 @@ class Hero extends React.Component {
               <div className="col px-0 py-0 divhero">
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="15">
-                    <img
-                      src={logo2}
-                      width="160"
-                      height="140"
-                      className="logo2"
-                    />
-                    <h1 className="font-weight-bold texthero1">WELCOME</h1>
+                    <h1 className="tf0 font-weight-bold texthero1">
+                      CELEBRATING
+                    </h1>
 
                     <div className="mt-2">
-                      <h1 className="font-weight-bold mb-0 texthero2">
-                        HARVEST LUCRETIA
+                      <h1 className="tf1 font-weight-bold mb-0 texthero2">
+                        The Wedding Of
                       </h1>
+                    </div>
+                    <div className="mt-2">
+                      <h1 className="tf mb-0 texthero3">Qois & Aisyah</h1>
                     </div>
                   </Col>
                 </Row>
